@@ -35,8 +35,9 @@ type: "input",
 message: "please enter test instructions"
 },
 {name: "license",
- type: "",
- message: ""
+ type: "list",
+ message: "Please choose a license type",
+ choices: ["MIT", "Apache License 2.0", "GNU GPLv3", "GNU AGPLv3", "Mozilla Public License 2.0", "Boost Software License 1.0"]
 },
 {
 name: "github",
@@ -51,10 +52,22 @@ message: "please enter your email"
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(data) {
+      console.log(data)
+}
 
-// TODO: Create a function to initialize app
-function init() {}
+// function to initialize app, feed questions to inquirer prompt function and call function to write data
+//to readme file
+function init() {
+      inquirer.prompt(
+            [...questions]
+      )
+      .then ((data) => {
+      fs.writeFile('readme.md', writeToFile(data), (err) =>
+      err ? console.log(err) : console.log('Success!')
+          );
+      });
+}
 
 // Function call to initialize app
 init();
