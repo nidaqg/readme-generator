@@ -1,29 +1,41 @@
 
-  # Readme generator
-  ## License Badge
+  # fff
+
+  ![badge](https://img.shields.io/badge/license-GNU_GPLv3-orange)
 
 ## Description 
- generate a readme for a project through a node.js and command line application
+ ffff
+
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
+* [Contributing Guidelines](#contributing)
+* [Tests](#tests)
 * [License](#license)
+* [Questions](#questions)
 
 ## Installation
- download and install the npm 'inquirer' package to run this node applicsation
+ ffff
+
 ## Usage 
- Initialize the npm package, open terminal or other command line tool and run node index.js to start the app
-## License
- MIT
+ ffff
+
 ## Contributing
- contributor guidelines appyl
+ ffff
+ 
 ## Tests
-none
+ffff
+
+
+## License
+![badge](https://img.shields.io/badge/license-GNU_GPLv3-orange)
+   
+This project is licensed under the GNU GPLv3 license. For more information, click here: ![license](https://spdx.org/licenses/GPL-3.0-or-later.html) 
+   
 
 ## Questions
 
-Find me on gitHub: github.com/nidaqg
+Find me on gitHub: https://github.com/fff
 
-For any questions or queries, email me at: nidaqg@gmail.com
+For any questions or queries, email me at: fff

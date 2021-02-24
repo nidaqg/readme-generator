@@ -33,34 +33,22 @@ message: "please enter test instructions if any:"
 {name: "license",
  type: "list",
  message: "Please choose a license type:",
- choices: ["MIT", "Apache License 2.0", "GNU GPLv3", "GNU AGPLv3", "Mozilla Public License 2.0", "Boost Software License 1.0"]
+ choices: ["MIT", "Apache License", "GNU GPLv3", "GNU AGPLv3", "Mozilla Public License", "Boost Software License", "None"]
 },
 {
 name: "github",
 type: "input",
-message: "please enter link to your github page:"
+message: "please enter your github username:"
 },
 {
 name: "email",
 type: "input",
 message: "please enter your email:"
 },
-/*{
-name: "contribution",
-type: "confirm",
-message: "Would you like to add Contributor Covenant contribution guidelines to your project?"
-},
-{
-name: "own-contribution",
-type: "confirm",
-message: "Would you like to write your own contribution guidelines instead?",
-when: (data) => data.contribution === false,
-},*/
 {
 name: "writecontribution",
 type: "input",
-message: "Please enter your contribution guidelines",
-//when: (data) => data.own-contribution === true,
+message: "If applicable, please enter guidelines for any contributors",
 }
 ];
 
