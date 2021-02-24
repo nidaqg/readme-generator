@@ -1,10 +1,10 @@
 
-  # fff
+  # hello world
 
-  ![badge](https://img.shields.io/badge/license-GNU_GPLv3-orange)
+  
 
 ## Description 
- ffff
+ readme generator
 
 ## Table of Contents
 
@@ -16,26 +16,20 @@
 * [Questions](#questions)
 
 ## Installation
- ffff
+ sss
 
 ## Usage 
- ffff
+ ssss
 
 ## Contributing
- ffff
+ none
  
 ## Tests
-ffff
+ssss
 
-
-## License
-![badge](https://img.shields.io/badge/license-GNU_GPLv3-orange)
-   
-This project is licensed under the GNU GPLv3 license. For more information, click here: ![license](https://spdx.org/licenses/GPL-3.0-or-later.html) 
-   
-
+    
 ## Questions
 
-Find me on gitHub: https://github.com/fff
+Find me on gitHub: https://github.com/nidaqg
 
-For any questions or queries, email me at: fff
+For any questions or queries, email me at: nidaqg@gmail.com

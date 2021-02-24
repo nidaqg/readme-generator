@@ -56,8 +56,9 @@ function renderLicenseLink(data) {
 
 //function that returns the license section of README
 function renderLicenseSection(data) {
-  if (data.license === 'none') {
-    return
+  if (data.license === 'None') {
+    return`
+    `;
   } else {
     return `
 ## License
