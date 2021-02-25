@@ -9,26 +9,41 @@ const questions = [
 name: "title",
 type: "input",
 message: "What is your project title?",
+validate: function validateTitle(name){
+      return name !== '';
+}
 },
 {
 name: "description",
 type: "input",
-message: "Please enter a short description of the project:"    
+message: "Please enter a short description of the project:",
+validate: function validateTitle(name){
+      return name !== '';
+}   
 },
 {
 name: "installation",
 type: "input",
-message: "Please enter instructions for installation of your application:"   
+message: "Please enter instructions for installation of your application:",
+validate: function validateTitle(name){
+      return name !== '';
+}
 },
 {
 name: "usage",
 type: "input",
-message: "Please enter information on how to use your application:"    
+message: "Please enter information on how to use your application:",
+validate: function validateTitle(name){
+      return name !== '';
+}  
 },
 {
 name: "test",
 type: "input",
-message: "please enter test instructions if any:"
+message: "please enter test instructions if any:",
+validate: function validateTitle(name){
+      return name !== '';
+}
 },
 {name: "license",
  type: "list",
@@ -38,17 +53,26 @@ message: "please enter test instructions if any:"
 {
 name: "github",
 type: "input",
-message: "please enter your github username:"
+message: "please enter your github username:",
+validate: function validateTitle(name){
+      return name !== '';
+}
 },
 {
 name: "email",
 type: "input",
-message: "please enter your email:"
+message: "please enter your email:",
+validate: function validateTitle(name){
+      return name !== '';
+}
 },
 {
 name: "writecontribution",
 type: "input",
-message: "If applicable, please enter guidelines for any contributors",
+message: "If applicable, please enter guidelines for any contributors:",
+validate: function validateTitle(name){
+      return name !== '';
+}
 }
 ];
 

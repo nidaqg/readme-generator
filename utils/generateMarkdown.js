@@ -70,6 +70,28 @@ This project is licensed under the ${data.license} license. For more information
   }
 }
 
+//function to render table of contents depending on whether or not a license was chosen
+function renderContents (data) {
+  if (data.license === 'None') {
+    return `
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing Guidelines](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+    `;
+  } else {
+    return `
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing Guidelines](#contributing)
+* [Tests](#tests)
+* [License](#license)
+* [Questions](#questions)
+    `
+  }
+}
+
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
@@ -82,12 +104,7 @@ function generateMarkdown(data) {
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing Guidelines](#contributing)
-* [Tests](#tests)
-* [License](#license)
-* [Questions](#questions)
+${renderContents(data)}
 
 ## Installation
  ${data.installation}
