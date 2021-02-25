@@ -122,7 +122,7 @@ ${renderLicenseSection(data)}
 
 Find me on gitHub: https://github.com/${data.github}
 
-For any questions or queries, email me at: ${data.email}
+For any questions or to report issues, email me at: ${data.email}
 `;
 }
 
