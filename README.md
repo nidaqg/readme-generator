@@ -28,7 +28,8 @@ A badge for ther choosen license will be added to the top of the README as well 
 The file entitled 'sampleREADME.md' is the samplec readme generated using this project.
 
 ## Contributing
- [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)
+ ![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)
+ 
  Link to Contributor's Covenant: https://www.contributor-covenant.org/version/2/0/code_of_conduct/
  
 ## License
