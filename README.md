@@ -25,6 +25,8 @@ To run the application, use the command 'node index.js' from your command line. 
 Once all prompts have been answered, a README will be generated dynamically with the answers of the prompts under their relevant headings. A table of contents will also be added with clickable links to the relevant sections of the README.
 A badge for ther choosen license will be added to the top of the README as well as to the license section. Links to the license agreement, the user's github repo as well as the user provided email address will also be added to the relevant sections of the README.
 
+The file entitled 'sampleREADME.md' is the samplec readme generated using this project.
+
 ## Contributing
  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)
  Link to Contributor's Covenant: https://www.contributor-covenant.org/version/2/0/code_of_conduct/
