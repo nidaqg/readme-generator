@@ -31,22 +31,22 @@ function renderLicenseLink(data) {
   var licenseLink;
   switch(data.license) {
     case 'MIT': 
-      licenseLink = '![license](https://spdx.org/licenses/MIT.html)';
+      licenseLink = 'https://spdx.org/licenses/MIT.html';
       break;
     case 'Apache License':
-      licenseLink = '![license](https://spdx.org/licenses/Apache-2.0.html)';
+      licenseLink = 'https://spdx.org/licenses/Apache-2.0.html';
       break;
     case 'GNU GPLv3':
-      licenseLink = '![license](https://spdx.org/licenses/GPL-3.0-or-later.html)';
+      licenseLink = 'https://spdx.org/licenses/GPL-3.0-or-later.html';
       break;
     case 'GNU AGPLv3':
-      licenseLink = '![license](https://spdx.org/licenses/AGPL-3.0-or-later.html)';
+      licenseLink = 'https://spdx.org/licenses/AGPL-3.0-or-later.html';
       break;
     case 'Mozilla Public License':
-      licenseLink = '![license](https://spdx.org/licenses/MPL-2.0.html)';
+      licenseLink = 'https://spdx.org/licenses/MPL-2.0.html';
       break;
     case 'Boost Software License':
-      licenseLink = '![license](https://spdx.org/licenses/BSL-1.0.html)';
+      licenseLink = 'https://spdx.org/licenses/BSL-1.0.html';
       break;
       case 'none':
         licenseLink = '';

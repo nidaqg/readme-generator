@@ -1,5 +1,5 @@
 
-  # readme generator
+  # Readme Generator
 
   ![badge](https://img.shields.io/badge/license-GNU_AGPLv3-orange)
 
@@ -18,10 +18,10 @@
     
 
 ## Installation
- install inquirer
+ instal inquirer npm package
 
 ## Usage 
- open command line and type node index.js
+ run node index.js from directory to start prompts
 
 ## Contributing
  none
@@ -32,7 +32,7 @@ none
 ## License
 ![badge](https://img.shields.io/badge/license-GNU_AGPLv3-orange)
    
-This project is licensed under the GNU AGPLv3 license. For more information, click here: ![license](https://spdx.org/licenses/AGPL-3.0-or-later.html) 
+This project is licensed under the GNU AGPLv3 license. For more information, click here: https://spdx.org/licenses/AGPL-3.0-or-later.html 
    
 
 ## Questions
